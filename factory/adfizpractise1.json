@@ -1,0 +1,15 @@
+{
+	"name": "adfizpractise1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ea187afa-e779-4356-8c4e-adfccd41540b",
+		"tenantId": "4594fb36-35de-4722-83bf-e5f487ef6072"
+	}
+}
