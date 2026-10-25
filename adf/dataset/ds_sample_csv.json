@@ -1,0 +1,23 @@
+{
+  "name": "ds_sample_csv",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "ls_azure_blob_storage",
+      "type": "LinkedServiceReference"
+    },
+    "annotations": [],
+    "type": "DelimitedText",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobStorageLocation",
+        "container": "raw",
+        "folderPath": "input"
+      },
+      "columnDelimiter": ",",
+      "escapeChar": "\\",
+      "firstRowAsHeader": true,
+      "quoteChar": "\""
+    },
+    "schema": []
+  }
+}

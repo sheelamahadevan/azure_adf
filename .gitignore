@@ -1,0 +1,28 @@
+# Local environment files
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets and local config
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Azure / deployment artifacts
+*.zip
+*.bak
+

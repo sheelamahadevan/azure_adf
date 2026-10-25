@@ -1,0 +1,10 @@
+{
+  "name": "ls_azure_blob_storage",
+  "properties": {
+    "annotations": [],
+    "type": "AzureBlobStorage",
+    "typeProperties": {
+      "connectionString": "@{linkedService().connectionString}"
+    }
+  }
+}
